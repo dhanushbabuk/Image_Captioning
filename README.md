@@ -62,7 +62,6 @@ The models are trained on the Flickr8k dataset, which contains a large collectio
 
 ## Training
 To train the models, run the relevant sections in the Jupyter notebook. Adjust the hyperparameters as needed:
-
 Learning rate
 Batch size
 Number of epochs
