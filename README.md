@@ -42,7 +42,7 @@ Generated Caption (LSTM): "A group of people standing on the beach."
 Generated Caption (Vanilla RNN): "People are standing on the beach."
 
 ## Model Architecture
-**LSTM Model** ##
+**LSTM Model**         
 The LSTM model : ##
 is designed to capture long-term dependencies in the sequence of words generated for the image.##
 It consists of:
