@@ -8,15 +8,13 @@ This project demonstrates image captioning using two different types of Recurren
 
 - [Introduction](#introduction)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Examples](#examples)
 - [Model Architecture](#model-architecture)
 - [Dataset](#dataset)
 - [Training](#training)
 - [Evaluation](#evaluation)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Installation
 
@@ -45,20 +43,22 @@ Generated Caption (Vanilla RNN): "People are standing on the beach."
 
 ## Model Architecture
 **LSTM Model**
-The LSTM model is designed to capture long-term dependencies in the sequence of words generated for the image. It consists of:
+The LSTM model :
+is designed to capture long-term dependencies in the sequence of words generated for the image. It consists of:
 
 An encoder that processes the input image using a pre-trained convolutional neural network (CNN) like ResNet or Inception.
 A decoder that uses LSTM units to generate the sequence of words (captions).
 
 **Vanilla RNN Model**
-The Vanilla RNN model uses simpler RNN units without the gating mechanisms of LSTM. It includes:
+The Vanilla RNN model:
+uses simpler RNN units without the gating mechanisms of LSTM. It includes:
 
 A similar CNN-based encoder for image feature extraction.
 A standard RNN-based decoder for caption generation.
 
 ## Dataset
 The models are trained on the Flickr8k dataset, which contains a large collection of images with corresponding captions. Ensure you have downloaded and preprocessed the dataset as per the instructions in the notebook.
-link https://www.kaggle.com/datasets/adityajn105/flickr8k
+         https://www.kaggle.com/datasets/adityajn105/flickr8k
 
 ## Training
 To train the models, run the relevant sections in the Jupyter notebook. Adjust the hyperparameters as needed:
