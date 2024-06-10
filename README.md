@@ -43,15 +43,15 @@ Generated Caption (Vanilla RNN): "People are standing on the beach."
 
 ## Model Architecture
 **LSTM Model**         
-The LSTM model : ##
-is designed to capture long-term dependencies in the sequence of words generated for the image.##
+The LSTM model : 
+is designed to capture long-term dependencies in the sequence of words generated for the image.        
 It consists of:
 An encoder that processes the input image using a pre-trained convolutional neural network (CNN) like ResNet or Inception.
 A decoder that uses LSTM units to generate the sequence of words (captions).
 
-**Vanilla RNN Model** ##
-The Vanilla RNN model:##
-uses simpler RNN units without the gating mechanisms of LSTM. ##
+**Vanilla RNN Model**             
+The Vanilla RNN model:
+uses simpler RNN units without the gating mechanisms of LSTM.            
 It includes:
 A similar CNN-based encoder for image feature extraction.
 A standard RNN-based decoder for caption generation.
